@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Корзина — Ахроматия</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="cart.js"></script>
+</head>
+<body>
+    <header>
+        <h1 class="Achromatia">Корзина</h1>
+        <a href="index.html" id="to-catalog">← Назад в каталог</a>
+    </header>
+
+    <main id="order-summary">
+        <h2>Ваш заказ:</h2>
+        <ul id="cart-items"></ul>
+        <p><strong>Итого: $<span id="total-price">0</span></strong></p>
+        <button onclick="clearCart()">Очистить корзину</button>
+    </main>
+
+    <footer>Интернет магазин чёрно-белых товаров</footer>
+
+    <script src="cart.js"></script>
+</body>
+</html>

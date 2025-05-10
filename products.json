@@ -1,0 +1,65 @@
+{
+    "Чёрная футболка": {
+        "Size": "XS-6XL",
+        "fabric": "cotton",
+        "color": "black",
+        "gender": "unisex",
+        "images": "blackshirt.png",
+        "price": "2$"
+    },
+
+    "Монохромное чёрное худи": {
+        "Size": "XS-6XL",
+        "fabric": "cotton",
+        "color": "black",
+        "gender": "unisex",
+        "images": "hoodie.png",
+        "price": "7$"
+    },
+
+    "Монохромное белое худи": {
+        "Size": "XS-6XL",
+        "fabric": "cotton",
+        "color": "white",
+        "gender": "unisex",
+        "images": "whitehoodie.png",
+        "price": "4$"
+    },
+
+    "Чёрное пальто 'Шерлок Холмс'": {
+        "Size":"XS-6XL",
+        "fabric": "wool and cotton",
+        "color":"black",
+        "gender": "unisex",
+        "images": "palto.png",
+        "price": "10$"
+    },
+
+    "Белая футболка однотон": {
+        "Size": "XS-6XL",
+        "fabric": "cotton",
+        "color": "black",
+        "gender": "unisex",
+        "images": "whiteshirt.png",
+        "price": "5$"
+    },
+
+    "Чёрно-белые чашки": {
+        "color": "black and white",
+        "material": "ceramics",
+        "depth": "250 ml",
+        "weight": "100 gr",
+        "images": "chashki.png",
+        "price": "12$"
+    },
+
+    "Чёрный диван": {
+        "color": "black",
+        "material": "natural leather",
+        "length": "520 cm",
+        "width": "70 cm",
+        "images": "divan.png",
+        "price": "50$"
+    }
+
+}

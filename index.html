@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="style.css" type="text/css">
+     <script defer src="script.js"></script>
+     <title>Магазин Ахроматия</title>
+     <link rel="icon" type="image/png" href="favicons/favicon-96x96.png" sizes="96x96" />
+     <link rel="icon" type="image/svg+xml" href="favicons/favicon.svg" />
+     <link rel="shortcut icon" href="favicons/favicon.ico" />
+     <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png" />
+     <meta name="apple-mobile-web-app-title" content="Achromaria" />
+     <link rel="manifest" href="favicons/site.webmanifest" />
+ </head>
+ <body>
+    <header>
+        <div class="header-text">
+            <h1 class="Achromatia">Ахроматия</h1>
+            <h3 class="typeOfStore">Магазин чёрно-белых товаров</h3>
+            <a href="#" id="cart" title="корзина">
+                <img src="./images2/shopping_cart.svg">
+                <span id="cart-product-counter">0</span>
+            </a>
+        </div>
+        <img id="logo" src="images2/in_yan.png" alt="logo" width="100px" class="logo">
+    </header>
+    <main id="catalog">
+        <div id="filter">
+            <div>
+                <input id="search" type="text">
+                <img src="./images2/search.svg" id="search-button" >
+            </div>
+        </div>       
+
+        <div class="catalog-wrapper">
+                <div class="shirt-card">
+                    <h4 class="h4-shirt">Чёрная футболка</h4>
+          
+                    <div class="slider-wrapper">
+                       <img src="./images2/blacktshirt.png" class="slide-image visible" alt="Фото товара">
+                       <!-- Если есть больше изображений, они добавятся JS-ом, и стрелки тоже -->
+                       <img src="./images2/arrow_back.svg" class="arrow back" alt="Назад">
+                       <img src="./images2/arrow_forward.svg" class="arrow forward" alt="Вперёд">
+                    </div>
+                    <p>
+                        Размер: "XS-6XL",
+                        Ткань: "хлопок",
+                        Цвет: "чёрный",
+                        Пол: "унисекс"
+                    </p>
+                    <h3>Цена: 2$</h3>
+                    <button class="cartItems">Добавить в корзину</button>
+                </div>
+
+            <!-- Монохромное чёрное худи -->
+            <div class="shirt-card">
+                <h4>Монохромное чёрное худи</h4>
+
+                <div class="slider-wrapper">
+                    <img src="./images2/hoodie.png" class="slide-image visible" alt="Монохромное чёрное худи">
+                    <img src="./images2/arrow_back.svg" class="arrow back" alt="Назад">
+                    <img src="./images2/arrow_forward.svg" class="arrow forward" alt="Вперёд">
+                </div>
+                <p>
+                    Размер: "XS-6XL",
+                    Ткань: "хлопок",
+                    Цвет: "чёрный",
+                    Пол: "унисекс"
+                </p>
+                <h3>Цена: 7$</h3>
+                <button class="cartItems">Добавить в корзину</button>
+            </div>
+  
+            <!-- Монохромное белое худи -->
+            <div class="shirt-card">
+                <h4>Монохромное белое худи</h4>
+
+                <div class="slider-wrapper">
+                    <img src="./images2/whitehoodie.png" class="slide-image visible" alt="Монохромное белое худи">
+                    <img src="./images2/arrow_back.svg" class="arrow back" alt="Назад">
+                    <img src="./images2/arrow_forward.svg" class="arrow forward" alt="Вперёд">
+                </div>
+                <p>
+                    Размер: "XS-6XL",
+                    Ткань: "хлопок",
+                    Цвет: "белый",
+                    Пол: "унисекс"
+                </p>
+                <h3>Цена: 4$</h3>
+                <button class="cartItems">Добавить в корзину</button>
+            </div>
+  
+            <!-- Чёрное пальто 'Шерлок Холмс' -->
+            <div class="shirt-card">
+                <h4>Чёрное пальто 'Шерлок Холмс'</h4>
+
+                <div class="slider-wrapper">
+                    <img src="./images2/palto.png" class="slide-image visible" alt="Чёрное пальто 'Шерлок Холмс'">
+                    <img src="./images2/arrow_back.svg" class="arrow back" alt="Назад">
+                    <img src="./images2/arrow_forward.svg" class="arrow forward" alt="Вперёд">
+                </div>
+                <p>
+                    Размер: "XS-6XL",
+                    Ткань: "шерсть и хлопок",
+                    Цвет: "чёрный",
+                    Пол: "унисекс"
+                </p>
+                <h3>Цена: 10$</h3>
+                <button class="cartItems">Добавить в корзину</button>
+            </div>
+  
+           <!-- Белая футболка однотон -->
+           <div class="shirt-card">
+               <h4>Белая футболка однотон</h4>
+
+                <div class="slider-wrapper">
+                    <img src="./images2/whitetshirt.png" class="slide-image visible" alt="Белая футболка однотон">
+                    <img src="./images2/arrow_back.svg" class="arrow back" alt="Назад">
+                    <img src="./images2/arrow_forward.svg" class="arrow forward" alt="Вперёд">
+                </div>
+                <p>
+                    Размер: "XS-6XL",
+                    Ткань: "хлопок",
+                    Цвет: "белый",
+                    Пол: "унисекс"
+                </p>
+                <h3>Цена: 5$</h3>
+                <button class="cartItems">Добавить в корзину</button>
+            </div>
+  
+            <!-- Чёрно-белые чашки -->
+            <div class="shirt-card">
+                <h4>Чёрно-белые чашки</h4>
+
+                <div class="slider-wrapper">
+                    <img src="./images2/chashki.png" class="slide-image visible" alt="Чёрно-белые чашки">
+                    <img src="./images2/arrow_back.svg" class="arrow back" alt="Назад">
+                    <img src="./images2/arrow_forward.svg" class="arrow forward" alt="Вперёд">
+                </div>
+                <p>
+                    цвет: "чёрный и белый",
+                    материал: "керамика",
+                    глубина: "250 мл",
+                    вес: "100 гр"
+                </p>
+                <h3>Цена: 12$</h3>
+                <button class="cartItems">Добавить в корзину</button>
+            </div>
+  
+            <!-- Чёрный диван -->
+            <div class="shirt-card">
+                <h4>Чёрный диван</h4>
+
+                <div class="slider-wrapper">
+                    <img src="./images2/divan.png" class="slide-image visible" alt="Чёрный диван">
+                    <img src="./images2/arrow_back.svg" class="arrow back" alt="Назад">
+                    <img src="./images2/arrow_forward.svg" class="arrow forward" alt="Вперёд">
+                </div>
+                <p>
+                    цвет: "чёрный и белый",
+                    материал: "керамика",
+                    длина: "520 см",
+                    ширина: "70 см"
+                </p>
+                <h3>Цена: 50$</h3>
+                <button class="cartItems">Добавить в корзину</button>
+            </div>
+        </div>
+  
+    </main>
+    <footer>Интернет магазин чёрно-белых товаров</footer>
+ </body>
+ </html>
